@@ -22,3 +22,58 @@ body {
 .quiz-card {
     width: 30rem;
 }
+
+.quiz-answer-card:hover {
+    cursor: pointer;
+    background-color: rgba(245, 245, 220, 0.7);
+}
+
+.bg-success, .bg-danger {
+    color: white !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.trophy {
+    width: 30%;
+}
+
+.trophy-container{
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+}
+
+.big {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+@media (max-width: 530px){
+    .container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+@media (max-width: 500px){
+    .container {
+        background-color: white !important;
+    }
+
+    body{
+        background-color: white !important;
+    }
+
+    .card{
+        height: 100% !important;
+    }
+}
